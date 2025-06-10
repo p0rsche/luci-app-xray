@@ -18,9 +18,6 @@ jobs:
       fail-fast: false
       matrix:
         include:
-          - arch: x86_64
-            sdk_url_path: https://downloads.openwrt.org/releases/24.10.1/targets/x86/64
-            sdk_name: -sdk-24.10.1-x86-64_
           - arch: mt7622
             sdk_url_path: https://downloads.openwrt.org/releases/24.10.1/targets/mediatek/mt7622
             sdk_name: -sdk-24.10.1-mediatek-mt7622_
